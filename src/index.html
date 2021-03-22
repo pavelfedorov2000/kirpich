@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="libs/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="libs/normalize.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title></title>
+</head>
+
+<body>
+
+    <div class="hm_bread_wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <h1>Конструктор кладки</h1>
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"></li>
+                        <li class="breadcrumb-item active"></li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <main class="constructor">
+        <div class="constructor__inner flex">
+            <div class="constructor__choice choice flex">
+                <div class="choice__title"></div>
+                <div class="choice__tabs">
+                    <a href="#choice-tab-1" class="choice__tab choice__tab--active">Гладкий</a>
+                    <a href="#choice-tab-2" class="choice__tab">Руст</a>
+                    <a href="#choice-tab-3" class="choice__tab">
+                        Плитка облицовочная
+                    </a>
+                    <a href="#choice-tab-4" class="choice__tab">Цвет шва</a>
+                </div>
+                <div class="choice__items">
+                    <div class="choice__item choice-item">
+                        <div class="choice-item__color-name">Бавария</div>
+                        <div class="choice-item__color" style="background-color: #CDBAAE;"></div>
+                        <div class="choice-item__counter flex">
+                            <button
+                                class="choice-item__counter-item choice-item__counter-btn choice-item__counter-btn--minus"></button>
+                            <input type="text" class="choice-item__counter-item choice-item__counter-input" value="0"
+                                readonly>
+                            <button class="choice-item__counter-btn choice-item__counter-btn--plus"></button>
+                        </div>
+                    </div>
+                    <div class="choice__item choice-item">
+                        <div class="choice-item__color-name">Бежевый</div>
+                        <div class="choice-item__color" style="background-color: #ECC09D;"></div>
+                        <div class="choice-item__counter flex">
+                            <button
+                                class="choice-item__counter-item choice-item__counter-btn choice-item__counter-btn--minus"></button>
+                            <input type="text" class="choice-item__counter-item choice-item__counter-input" value="0"
+                                readonly>
+                            <button
+                                class="choice-item__counter-item choice-item__counter-btn choice-item__counter-btn--plus"></button>
+                        </div>
+                    </div>
+                    <div class="choice__item choice-item">
+                        <div class="choice-item__color-name">Бордо</div>
+                        <div class="choice-item__color" style="background-color: #CE978A;"></div>
+                        <div class="choice-item__counter flex">
+                            <button
+                                class="choice-item__counter-item choice-item__counter-btn choice-item__counter-btn--minus"></button>
+                            <input type="text" class="choice-item__counter-item choice-item__counter-input" value="0"
+                                readonly>
+                            <button
+                                class="choice-item__counter-item choice-item__counter-btn choice-item__counter-btn--plus"></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="constructor__view">
+                <img src="" alt="" class="constructor__img">
+                <div class="constructor__actions flex">
+                    <a href="#" target="_blank" class="constructor__download-img">
+                        Скачать изображение
+                    </a>
+                    <div class="constructor__buttons">
+                        <button class="hm_btn constructor__btn constructor__btn--reset">
+                            Сбросить значения
+                        </button>
+                        <button class="hm_btn constructor__btn constructor__btn--refresh">
+                            Обновить
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/script.min.js"></script>
+
+</body>
+
+</html>
